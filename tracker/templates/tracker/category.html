@@ -1,0 +1,85 @@
+{% load static %}
+{% load i18n %}
+{% load extras %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+    <link href="{% static 'tracker/css/output.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'tracker/css/style.css' %}">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="bg-green-50 font-sans" >
+    <header class="w-full bg-custom-green pt-12 pb-24 px-6 rounded-b-[2.5rem] shadow-md">
+        <div class="max-w-6xl mx-auto flex items-center gap-6 text-white">
+            <a href="{% url 'dashboard' %}" class="w-12 h-12 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 transition">
+                <i class="fa-solid fa-arrow-left text-xl"></i>
+            </a>
+            <div>
+                <h1 class="text-4xl font-medium tracking-tight ">{% trans "Category" %}</h1>
+                <p class="text-white/70 text-sm pt-2">{% trans "Smart categories. Smarter tracking." %}</p>
+            </div>
+        </div>
+    </header>
+
+        <main class="max-w-6xl mx-auto px-6 py-5 -mt-16">
+            <div class="bg-white rounded-3xl shodow-xl p-8 border border-gray-100">
+                <div class="grid grid-cols-2 gap-8">
+                    <div class="bg-green-50/25 rounded-2xl shadow-md p-2 flex flex-col justify-center items-center hover:scale-105 transition">
+                        <i class="fa-solid fa-mug-saucer bg-green-700 px-8 py-4 text-xl text-white flex justify-center items-center rounded-xl m-4"></i>
+                        <span class="text-sm font-bold text-gray-500 uppercase mt-2">{% trans "Food" %}</span>
+                        <p class="text-green-600 font-semibold text-xl">
+                            ₹{{ category_data|get_item:"Food" }}
+                        </p>
+                    </div>
+                    <div class="bg-green-50/25 rounded-2xl shadow-md p-2 flex flex-col justify-center items-center hover:scale-105 transition">
+                        <i class="fa-solid fa-cart-shopping bg-[#5c6f53] px-8 py-4 text-xl text-white flex justify-center items-center rounded-xl m-4"></i>
+                        <span class="text-sm font-bold text-gray-500 uppercase mt-2">{% trans "Shopping" %}</span>
+                        <p class="text-green-600 font-semibold text-xl">
+                            ₹{{ category_data|get_item:"Shopping" }}
+                        </p>  
+                    </div>
+                    <div class="bg-green-50/25 rounded-2xl shadow-md p-2 flex flex-col justify-center items-center hover:scale-105 transition">
+                        <i class="fa-regular fa-house bg-lime-700  px-8 py-4 text-xl text-white flex justify-center items-center rounded-xl m-4"></i>
+                        <span class="text-sm font-bold text-gray-500 uppercase mt-2">{% trans "Housing" %}</span>
+                        <p class="text-green-600 font-semibold text-xl">
+                            ₹{{ category_data|get_item:"Housing" }}
+                        </p>
+                    </div>
+                    <div class="bg-green-50/25 rounded-2xl shadow-md p-2 flex flex-col justify-center items-center hover:scale-105 transition">
+                        <i class="fa-solid fa-car-side bg-[#2e3729]  px-8 py-4 text-xl text-white flex justify-center items-center rounded-xl m-4"></i>
+                        <span class="text-sm font-bold text-gray-500 uppercase mt-2">{% trans "Transport" %}</span>
+                        <p class="text-green-600 font-semibold text-xl">
+                            ₹{{ category_data|get_item:"Transport" }}
+                        </p>
+                    </div>
+                    <div class="bg-green-50/25 rounded-2xl shadow-md p-2 flex flex-col justify-center items-center hover:scale-105 transition">
+                        <i class="fa-solid fa-film bg-green-400  px-8 py-4 text-xl text-white flex justify-center items-center rounded-xl m-4"></i>
+                        <span class="text-sm font-bold text-gray-500 uppercase mt-2">{% trans "Entertainment" %}</span>
+                        <p class="text-green-600 font-semibold text-xl">
+                            ₹{{ category_data|get_item:"Entertainment" }}
+                        </p>
+                    </div>
+                    <div class="bg-green-50/25 rounded-2xl shadow-md p-2 flex flex-col justify-center items-center hover:scale-105 transition">
+                        <i class="fa-regular fa-heart bg-[#d6ddd2]  px-8 py-4 text-xl text-white flex justify-center items-center rounded-xl m-4"></i>
+                        <span class="text-sm font-bold text-gray-500 uppercase mt-2">{% trans "Health" %}</span>
+                        <p class="text-green-600 font-semibold text-xl">
+                            ₹{{ category_data|get_item:"Health" }}
+                        </p>
+                    </div>
+                    <div class="bg-green-50/25 rounded-2xl shadow-md p-2 flex flex-col justify-center items-center hover:scale-105 transition">
+                        <i class="fa-solid fa-ellipsis bg-green-500  px-8 py-4 text-xl text-white flex justify-center items-center rounded-xl m-4"></i>
+                        <span class="text-sm font-bold text-gray-500 uppercase mt-2">{% trans "Other" %}</span>
+                        <p class="text-green-600 font-semibold text-xl">
+                            ₹{{ category_data|get_item:"Others" }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+</body>
+</html>

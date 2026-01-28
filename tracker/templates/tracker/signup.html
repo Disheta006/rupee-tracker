@@ -1,0 +1,61 @@
+{% load static %}
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="{% static 'tracker/css/output.css' %}" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'tracker/css/style.css' %}">
+  <title>Sign Up</title>
+  
+</head>
+<body class="min-h-screen flex items-center justify-center bg-green-50">
+  <div class="w-full max-w-md p-8 space-y-8 bg-white rounded-xl shadow-2xl border-0 border-gray-100">
+     <div class="text-center">
+        <h1 class="text-3xl font-bold text-custom-green_tone2">
+            Sign Up
+        </h1>
+        <p class="mt-2 text-sm text-gray-500">
+             Create your account to continue
+        </p>
+     </div>
+
+     <form class="mt-8 space-y-6" action="{% url 'signup' %}" method="POST">
+        {% csrf_token %}
+        <div>
+            <label for="text" class="block text-sm font-medium text-gray-700 text-custom-green_tone2">Username</label>
+            <input id="username" name="username" type="username" autocomplete="username" required class="relative block mt-2 w-full appearance-none rounded-md border border-gray-300 px-3 py-3 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-green-500 focus:outline-none focus:ring-green-500 sm:text-sm" placeholder="Enter your name....">       
+        </div>
+        <div>
+            <label for="email" class="block text-sm font-medium text-gray-700 text-custom-green_tone2">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" required class="relative block mt-2 w-full appearance-none rounded-md border border-gray-300 px-3 py-3 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-green-500 focus:outline-none focus:ring-green-500 sm:text-sm" placeholder="example@gmail.com">       
+        </div>
+        <div>
+            <label for="password" class="block text-sm font-medium text-gray-700 text-custom-green_tone2">Password</label>
+            <input id="password" name="password" type="password" autocomplete="new-password" required class="relative block mt-2 w-full appearance-none rounded-md border border-gray-300 px-3 py-3 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-green-500 focus:outline-none focus:ring-green-500 sm:text-sm" placeholder="Password">
+            <p id="password-strength" class="text-sm mt-1"></p>
+        </div>
+        <div>
+            <label for="confirm-password" class="block text-sm font-medium text-gray-700 text-custom-green_tone2">Confirm-Password</label>
+            <input id="confirm-password" name="confirm_password" type="password" autocomplete="new-password" required class="relative block mt-2 w-full appearance-none rounded-md border border-gray-300 px-3 py-3 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-green-500 focus:outline-none focus:ring-green-500 sm:text-sm" placeholder="Confirm Password">
+        </div>
+        {% if messages %}
+            {% for message in messages %}
+                <p class="text-red-500 text-sm">{{ message }}</p>
+            {% endfor %}
+        {% endif %}
+        <div>
+            <button type="submit" class="group relative flex w-full justify-center rounded-md border border-transparent bg-[#5f8724] py-3 px-4 text-sm font-medium text-white hover:bg-[#51731e] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#5f8724]">Sign Up</button>
+        </div>
+     </form>
+     <div class="flex items-center justify-center">
+        <div class="text-sm">
+            Already have an account?
+            <a href="{% url 'login_page' %}" class="font-medium text-custom-green_tone1 hover:underline">Login</a>
+        </div>
+     </div>
+  </div>
+  
+  <script src="{% static "tracker/js/signupdv.js" %}"></script>
+</body>
+</html>

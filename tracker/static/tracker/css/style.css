@@ -1,0 +1,47 @@
+
+/* logo */
+.bg-brand {
+     background-color: #748c69; 
+    }
+.text-brand 
+{ 
+    color: #748c69; 
+}
+.border-brand { 
+    border-color: #748c69; 
+}
+/* index.html */
+.bg-custom-green {
+    background-color: #5f8724;
+}
+.text-custom-green_tone1 {
+    color: #5f8724;
+}
+.hover-bg-green {
+    background-color: #748c69;
+}
+.carousel-indicators [button] {
+    background-color: white !important;
+}
+.carousel-item {
+    height: 350px;
+    border-radius: 1.5rem;
+}
+
+/* signup.html,login.html */
+.bg-custom-cream {
+    background-color: #f9fcf5;
+}
+.text-custom-green_tone2 {
+    color: #91a588;
+}
+.border-custom-greenish {
+    border-color: #54664c;
+}
+
+/* seetings.html */
+.card-shadow {
+    box-shadow: 0 10px 30px -5px(0,0,0,0.5);
+}
+
+

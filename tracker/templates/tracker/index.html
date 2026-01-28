@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rupee Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{% static 'tracker/css/style.css' %}">
+    <link href="{% static 'tracker/css/output.css' %}" rel="stylesheet">
+</head>
+<body class="flex items-center justify-center min-h-screen p-6 bg-green-50">
+
+    <div class="w-full max-w-xs text-center">
+        
+        <div class="mb-8">
+            <div class="mx-auto w-28 h-28 rounded-full border-[3px] border-brand flex items-center justify-center bg-lightgreen shadow-lg">
+                <span class="text-5xl">
+                    <img src="{% static 'tracker/assets/logo.jpeg' %}" class="rounded-full" alt="logo">
+                </span>
+            </div>
+            <h1 class="mt-6 text-2xl font-bold text-gray-800 tracking-tight">
+                Rupee Tracker
+            </h1>
+            <p class="text-gray-500 text-sm mt-1">
+                Manage your money wisely
+            </p>
+        </div>
+
+        <div class="space-y-4">
+            <a href="{% url 'signup' %}" 
+               class="block w-full bg-brand hover:bg-[#637a59] text-white font-bold py-4 rounded-full transition-all transform hover:scale-105 shadow-md">
+                Sign Up
+            </a>
+
+            <a href="{% url 'login_page' %}" 
+               class="block w-full bg-transparent border-2 border-brand text-brand hover:bg-green-50 font-bold py-4 rounded-full transition-all">
+                Login
+            </a>
+        </div>
+
+  </div>
+</body>
+</html>

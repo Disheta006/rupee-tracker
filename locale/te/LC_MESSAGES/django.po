@@ -1,0 +1,659 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-27 14:58+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\tracker\models.py:13 .\tracker\templates\tracker\category.html:34
+#: .\tracker\templates\tracker\dashboard.html:195
+msgid "Food"
+msgstr "ఆహారం"
+
+#: .\tracker\models.py:14 .\tracker\templates\tracker\category.html:41
+#: .\tracker\templates\tracker\dashboard.html:196
+msgid "Shopping"
+msgstr "షాపింగ్"
+
+#: .\tracker\models.py:15 .\tracker\templates\tracker\category.html:48
+#: .\tracker\templates\tracker\dashboard.html:197
+msgid "Housing"
+msgstr "ఇల్లు"
+
+#: .\tracker\models.py:16 .\tracker\templates\tracker\category.html:55
+#: .\tracker\templates\tracker\dashboard.html:198
+msgid "Transport"
+msgstr "రవాణా"
+
+#: .\tracker\models.py:17 .\tracker\templates\tracker\category.html:62
+#: .\tracker\templates\tracker\dashboard.html:199
+msgid "Entertainment"
+msgstr "వినోదం"
+
+#: .\tracker\models.py:18 .\tracker\templates\tracker\category.html:69
+#: .\tracker\templates\tracker\dashboard.html:200
+msgid "Health"
+msgstr "ఆరోగ్య స్థితి"
+
+#: .\tracker\models.py:19 .\tracker\templates\tracker\dashboard.html:201
+msgid "Others"
+msgstr "ఇతరులు"
+
+#: .\tracker\models.py:41 .\tracker\templates\tracker\contact.html:93
+msgid "General Feedback"
+msgstr "సాధారణ ఫీడ్‌బ్యాక్"
+
+#: .\tracker\models.py:42 .\tracker\templates\tracker\contact.html:94
+msgid "Technical Issue"
+msgstr "సాంకేతిక సమస్య"
+
+#: .\tracker\models.py:43 .\tracker\templates\tracker\contact.html:95
+msgid "Feature Request"
+msgstr "ఫీచర్ అభ్యర్థన"
+
+#: .\tracker\templates\tracker\about.html:24
+#: .\tracker\templates\tracker\contact.html:26
+#: .\tracker\templates\tracker\dashboard.html:27
+#: .\tracker\templates\tracker\home.html:25
+#: .\tracker\templates\tracker\setting.html:24
+msgid "Rupee Tracker"
+msgstr "రూపాయి ట్రాకర్"
+
+#: .\tracker\templates\tracker\about.html:27
+#: .\tracker\templates\tracker\about.html:43
+#: .\tracker\templates\tracker\contact.html:29
+#: .\tracker\templates\tracker\contact.html:45
+#: .\tracker\templates\tracker\dashboard.html:30
+#: .\tracker\templates\tracker\dashboard.html:46
+#: .\tracker\templates\tracker\home.html:28
+#: .\tracker\templates\tracker\home.html:44
+#: .\tracker\templates\tracker\setting.html:27
+#: .\tracker\templates\tracker\setting.html:43
+msgid "Home"
+msgstr "ఇల్లు"
+
+#: .\tracker\templates\tracker\about.html:28
+#: .\tracker\templates\tracker\about.html:44
+#: .\tracker\templates\tracker\about.html:57
+#: .\tracker\templates\tracker\contact.html:30
+#: .\tracker\templates\tracker\contact.html:46
+#: .\tracker\templates\tracker\dashboard.html:31
+#: .\tracker\templates\tracker\dashboard.html:47
+#: .\tracker\templates\tracker\home.html:29
+#: .\tracker\templates\tracker\home.html:45
+#: .\tracker\templates\tracker\setting.html:28
+#: .\tracker\templates\tracker\setting.html:44
+msgid "About"
+msgstr "గురించి"
+
+#: .\tracker\templates\tracker\about.html:29
+#: .\tracker\templates\tracker\about.html:45
+#: .\tracker\templates\tracker\contact.html:31
+#: .\tracker\templates\tracker\contact.html:47
+#: .\tracker\templates\tracker\dashboard.html:32
+#: .\tracker\templates\tracker\dashboard.html:48
+#: .\tracker\templates\tracker\dashboard.html:61
+#: .\tracker\templates\tracker\home.html:30
+#: .\tracker\templates\tracker\home.html:46
+#: .\tracker\templates\tracker\setting.html:29
+#: .\tracker\templates\tracker\setting.html:45
+msgid "Dashboard"
+msgstr "డ్యాష్‌బోర్డు"
+
+#: .\tracker\templates\tracker\about.html:30
+#: .\tracker\templates\tracker\about.html:46
+#: .\tracker\templates\tracker\contact.html:32
+#: .\tracker\templates\tracker\contact.html:48
+#: .\tracker\templates\tracker\contact.html:59
+#: .\tracker\templates\tracker\dashboard.html:33
+#: .\tracker\templates\tracker\dashboard.html:49
+#: .\tracker\templates\tracker\home.html:31
+#: .\tracker\templates\tracker\home.html:47
+#: .\tracker\templates\tracker\setting.html:30
+#: .\tracker\templates\tracker\setting.html:46
+msgid "Contact Us"
+msgstr "మమ్మల్ని సంప్రదించండి"
+
+#: .\tracker\templates\tracker\about.html:31
+#: .\tracker\templates\tracker\about.html:47
+#: .\tracker\templates\tracker\contact.html:33
+#: .\tracker\templates\tracker\contact.html:49
+#: .\tracker\templates\tracker\dashboard.html:34
+#: .\tracker\templates\tracker\dashboard.html:50
+#: .\tracker\templates\tracker\home.html:32
+#: .\tracker\templates\tracker\home.html:48
+#: .\tracker\templates\tracker\setting.html:31
+#: .\tracker\templates\tracker\setting.html:47
+#: .\tracker\templates\tracker\setting.html:57
+msgid "Settings"
+msgstr "సెట్టింగ్స్"
+
+#: .\tracker\templates\tracker\about.html:35
+#: .\tracker\templates\tracker\contact.html:37
+#: .\tracker\templates\tracker\dashboard.html:38
+#: .\tracker\templates\tracker\setting.html:35
+msgid "Login"
+msgstr "లాగిన్"
+
+#: .\tracker\templates\tracker\about.html:66
+msgid "Our Mission"
+msgstr "మా లక్ష్యం"
+
+#: .\tracker\templates\tracker\about.html:72
+msgid ""
+"  \n"
+"              \"Welcome to <span class=\"text-custom-green_tone1 font-"
+"bold\">Rupee Tracker</span>. We belive that managing your finances should be "
+"as natural as breathing. Our mission is to provide an intutivie, secure, and "
+"smart platform for tracking your daily expenses.\" \n"
+"              "
+msgstr ""
+"రూపీ ట్రాకర్‌కు స్వాగతం. మనం నమ్ముకుంటున్నాం, ఆర్థిక నిర్వహణ శ్వాస తీసుకోవడం లాంటివి సహజంగా ఉండాలి. "
+"మీ రోజువారీ ఖర్చులను ట్రాక్ చేయడానికి సులభమైన, సురక్షితమైన మరియు స్మార্ট్ ప్లాట్‌ఫారమ్‌ను అందించడం మన "
+"లక్ష్యం."
+
+#: .\tracker\templates\tracker\about.html:77
+msgid ""
+"Wheather you are tracking a morning coffee or your monthly rent, our "
+"platform helps you visualize your cash flow so you can make informed "
+"decisions for a healthier financial future."
+msgstr ""
+"మీరు ఉదయపు కాఫీ ఖర్చును గానీ, నెలవారీ అద్దెను గానీ ట్రాక్ చేసుకుంటున్నారా, మా ప్లాట్‌ఫారం మీ నగదు "
+"ప్రవాహాన్ని దృశ్యరూపంగా చూపి, ఆరోగ్యకరమైన ఆర్థిక భవిష్యత్తు కోసం తెలియజేసిన నిర్ణయాలు తీసుకోవడంలో "
+"సహాయపడుతుంది."
+
+#: .\tracker\templates\tracker\about.html:83
+msgid "Features"
+msgstr "ఫీచర్లు"
+
+#: .\tracker\templates\tracker\about.html:93
+msgid "Language Changing"
+msgstr "భాష మార్చడం"
+
+#: .\tracker\templates\tracker\about.html:94
+msgid ""
+"Customize your experirence with multi-language support for global tracking."
+msgstr "ప్రపంచవ్యాప్తంగా ట్రాకింగ్ కోసం బహుభాషా మద్దతుతో మీ అనుభవాన్ని కావ్యత్మకంగా మార్చుకోండి."
+
+#: .\tracker\templates\tracker\about.html:102
+msgid "Feedback Section"
+msgstr "ఫీడ్‌బ్యాక్ విభాగం"
+
+#: .\tracker\templates\tracker\about.html:103
+msgid ""
+"We value your input. We provide a generated opinion based on the expense "
+"flow."
+msgstr "మేము మీ అభిప్రాయాన్ని విలువిస్తాము. ఖర్చుల ప్రవాహం ఆధారంగా మేము రూపొందించిన అభిప్రాయాన్ని అందిస్తాము"
+
+#: .\tracker\templates\tracker\about.html:111
+#: .\tracker\templates\tracker\dashboard.html:122
+msgid "Health Status"
+msgstr "ఆరోగ్య స్థితి"
+
+#: .\tracker\templates\tracker\about.html:112
+msgid ""
+"Monitor you financial well-being with real-time budget health indicators."
+msgstr "రియల్-టైమ్ బడ్జెట్ ఆరోగ్య సూచికలతో మీ ఆర్థిక స్థితిని పర్యవేక్షించండి."
+
+#: .\tracker\templates\tracker\about.html:120
+#: .\tracker\templates\tracker\calender.html:23
+msgid "Calender"
+msgstr "క్యాలెండర్"
+
+#: .\tracker\templates\tracker\about.html:121
+msgid ""
+"Schedule recurring expenses and manage your financial timeline effortlessly."
+msgstr "ఆవృత ఖర్చులను షెడ్యూల్ చేయండి మరియు మీ ఆర్థిక కాలరేఖను సులభంగా నిర్వహించండి."
+
+#: .\tracker\templates\tracker\about.html:129
+msgid "Data Visualization"
+msgstr "డేటాను దృశ్యరూపంగా చూపించండి"
+
+#: .\tracker\templates\tracker\about.html:130
+msgid ""
+"Transform numbers into clarity with beautiful, interactive charts and "
+"spending reports."
+msgstr "అందమైన, ఇంటరాక్టివ్ చార్ట్లు మరియు ఖర్చుల నివేదికలతో సంఖ్యలను స్పష్టంగా మార్చండి."
+
+#: .\tracker\templates\tracker\about.html:139
+msgid "Our Team"
+msgstr "మా టీమ్"
+
+#: .\tracker\templates\tracker\about.html:147
+msgid "Lead Developer"
+msgstr "ముఖ్య డెవలపర్"
+
+#: .\tracker\templates\tracker\about.html:148
+msgid "Full Stack Engineer"
+msgstr "ఫుల్ స్టాక్ ఇంజనియర్"
+
+#: .\tracker\templates\tracker\about.html:158
+msgid "UI/UX Designer"
+msgstr "యూజర్ ఇంటర్‌ఫేస్/యూజర్ అనుభవ డిజైనర్"
+
+#: .\tracker\templates\tracker\about.html:159
+msgid "Creative Director"
+msgstr "క్రియేటివ్ డైరెక్టర్"
+
+#: .\tracker\templates\tracker\analysis.html:23
+#: .\tracker\templates\tracker\dashboard.html:105
+msgid "Analysis"
+msgstr "విశ్లేషణ"
+
+#: .\tracker\templates\tracker\analysis.html:24
+msgid "Clear insights. Better decisions."
+msgstr "స్పష్టమైన అవగాహన. మెరుగైన నిర్ణయాలు."
+
+#: .\tracker\templates\tracker\analysis.html:32
+msgid "Spending by Category"
+msgstr "వర్గం ప్రకారం ఖర్చులు"
+
+#: .\tracker\templates\tracker\analysis.html:51
+msgid "No expense recorded yet."
+msgstr "ఇంతవరకు ఎటువంటి ఖర్చు రికార్డు చేయబడలేదు."
+
+#: .\tracker\templates\tracker\analysis.html:61
+#: .\tracker\templates\tracker\calender.html:78
+msgid "Transactions"
+msgstr "లావాదేవీలు"
+
+#: .\tracker\templates\tracker\analysis.html:68
+msgid "Average"
+msgstr "సగటు"
+
+#: .\tracker\templates\tracker\calender.html:24
+msgid "Every date tells a spending story."
+msgstr "ప్రతి తేదీ ఒక ఖర్చుల కథ చెబుతుంది."
+
+#: .\tracker\templates\tracker\calender.html:68
+msgid "Monthly Summary"
+msgstr "మాసానికి సారాంశం"
+
+#: .\tracker\templates\tracker\calender.html:72
+msgid "Total Spent"
+msgstr "మొత్తం ఖర్చు"
+
+#: .\tracker\templates\tracker\category.html:23
+#: .\tracker\templates\tracker\edit_expense.html:30
+msgid "Category"
+msgstr "వర్గం"
+
+#: .\tracker\templates\tracker\category.html:24
+msgid "Smart categories. Smarter tracking."
+msgstr "స్మార్ట్ వర్గాలు. మరింత తెలివిగా ట్రాకింగ్."
+
+#: .\tracker\templates\tracker\category.html:76
+msgid "Other"
+msgstr "ఇతర"
+
+#: .\tracker\templates\tracker\charts.html:23
+msgid "Charts"
+msgstr "చార్ట్స్"
+
+#: .\tracker\templates\tracker\charts.html:24
+msgid "Visual clarity for your finances."
+msgstr "మీ ఆర్థిక వ్యవస్థను నియంత్రించుకోండి"
+
+#: .\tracker\templates\tracker\charts.html:32
+msgid "Spending Overview"
+msgstr "ఖర్చుల సమీక్ష"
+
+#: .\tracker\templates\tracker\charts.html:36
+msgid "Total Spending:"
+msgstr "మొత్తం ఖర్చు:"
+
+#: .\tracker\templates\tracker\charts.html:43
+msgid "Category Distribution"
+msgstr "వర్గ విభజన"
+
+#: .\tracker\templates\tracker\contact.html:60
+msgid ""
+"Have any suggestion for the <b> Rupee Tracker</b>? We'd love to hear from "
+"you!"
+msgstr "మీకు <b>రూపాయి ట్రాకర్</b> కోసం ఏదైనా సూచన ఉందా? మేము మీ నుండి వినాలని కోరుకుంటున్నాము!"
+
+#: .\tracker\templates\tracker\contact.html:78
+msgid "Full Name"
+msgstr "పూర్తి పేరు"
+
+#: .\tracker\templates\tracker\contact.html:80
+msgid "Enter your name..."
+msgstr "మీ పేరు నమోదు చేయండి..."
+
+#: .\tracker\templates\tracker\contact.html:84
+msgid "Email Address"
+msgstr "ఇమెయిల్ చిరునామా"
+
+#: .\tracker\templates\tracker\contact.html:90
+msgid "Type"
+msgstr "రకం"
+
+#: .\tracker\templates\tracker\contact.html:100
+msgid "Message"
+msgstr "సందేశం"
+
+#: .\tracker\templates\tracker\contact.html:102
+msgid "How can we improve your tracking experirence?"
+msgstr "మీ ట్రాకింగ్ అనుభవాన్ని మేము ఎలా మెరుగుపరచగలము?"
+
+#: .\tracker\templates\tracker\contact.html:104
+msgid "Send Feedback"
+msgstr "ఫీడ్‌బ్యాక్ పంపండి"
+
+#: .\tracker\templates\tracker\contact.html:111
+msgid "Email Us"
+msgstr "మాకు ఇమెయిల్ పంపండి"
+
+#: .\tracker\templates\tracker\contact.html:116
+msgid "Call Us"
+msgstr "మాకు కాల్ చేయండి"
+
+#: .\tracker\templates\tracker\dashboard.html:62
+msgid "Track your expenses and control flow here!"
+msgstr "మీ ఖర్చులు ట్రాక్ చేయండి మరియు ఇక్కడ ప్రవాహాన్ని నియంత్రించండి!"
+
+#: .\tracker\templates\tracker\dashboard.html:71
+msgid "Budget Overview"
+msgstr "బడ్జెట్ అవలోకనం"
+
+#: .\tracker\templates\tracker\dashboard.html:79
+msgid "Total Income"
+msgstr "మొత్తం ఆదాయం"
+
+#: .\tracker\templates\tracker\dashboard.html:84
+msgid "Update"
+msgstr "అప్‌డేట్"
+
+#: .\tracker\templates\tracker\dashboard.html:89
+msgid "Total Expenses"
+msgstr "మొత్తం ఖర్చులు"
+
+#: .\tracker\templates\tracker\dashboard.html:101
+msgid "Financial Insights"
+msgstr "ఆర్థిక అవగాహనలు"
+
+#: .\tracker\templates\tracker\dashboard.html:109
+msgid "category"
+msgstr "వర్గం"
+
+#: .\tracker\templates\tracker\dashboard.html:113
+msgid "charts"
+msgstr "చార్ట్స్"
+
+#: .\tracker\templates\tracker\dashboard.html:151
+msgid "Recent Expenses"
+msgstr "ఇటీవల ఖర్చులు"
+
+#: .\tracker\templates\tracker\dashboard.html:164
+msgid "No expenses yet"
+msgstr "మొత్తం ఖర్చులు"
+
+#: .\tracker\templates\tracker\dashboard.html:182
+msgid "Add Expense"
+msgstr "ఖర్చు జోడించండి"
+
+#: .\tracker\templates\tracker\dashboard.html:188
+msgid "Title"
+msgstr "శీర్షిక"
+
+#: .\tracker\templates\tracker\dashboard.html:191
+#: .\tracker\templates\tracker\edit_expense.html:26
+msgid "Amount"
+msgstr "మొత్తం"
+
+#: .\tracker\templates\tracker\dashboard.html:209
+msgid "Cancel"
+msgstr "రద్దు చేయి"
+
+#: .\tracker\templates\tracker\dashboard.html:210
+msgid "Add"
+msgstr "జోడించు"
+
+#: .\tracker\templates\tracker\edit_expense.html:17
+msgid "Edit Expenses"
+msgstr "ఖర్చు జోడించండి"
+
+#: .\tracker\templates\tracker\edit_expense.html:22
+msgid "Title "
+msgstr "శీర్షిక"
+
+#: .\tracker\templates\tracker\edit_expense.html:34
+msgid "Date"
+msgstr "తేది"
+
+#: .\tracker\templates\tracker\edit_expense.html:38
+msgid "Save Changes"
+msgstr "మార్పులను సేవ్ చేయండి"
+
+#: .\tracker\templates\tracker\home.html:36
+#: .\tracker\templates\tracker\setting.html:204
+msgid "Logout"
+msgstr "లాగ్ అవుట్"
+
+#: .\tracker\templates\tracker\home.html:61
+msgid "Let's Get Started"
+msgstr "మనం ప్రారంభిద్దాం"
+
+#: .\tracker\templates\tracker\home.html:62
+msgid "Take control of your finances today."
+msgstr "మీ ఆర్థిక వ్యవస్థను నియంత్రించుకోండి"
+
+#: .\tracker\templates\tracker\home.html:65
+msgid "Explore Now"
+msgstr "ఇప్పుడు మనం అన్వేషిద్దాం"
+
+#: .\tracker\templates\tracker\home.html:72
+msgid "Smart Tracking"
+msgstr "స్మార్ట్ ట్రాకింగ్"
+
+#: .\tracker\templates\tracker\home.html:73
+msgid "View spending with smart charts."
+msgstr "స్మార్ట్ చార్ట్స్‌తో ఖర్చులను చూడండి"
+
+#: .\tracker\templates\tracker\home.html:76
+msgid "Visualize Data"
+msgstr "డేటాను దృశ్యరూపంగా చూపించండి"
+
+#: .\tracker\templates\tracker\home.html:94
+msgid "Demo"
+msgstr "డెమో"
+
+#: .\tracker\templates\tracker\home.html:97
+msgid "Here is quick sneak-peek on how <b> Rupee Tracker</b> works!"
+msgstr "<b>రూపాయి ట్రాకర్</b> ఎలా పనిచేస్తుందో ఒక వేగంగా చక్కగా చూపిస్తాం!"
+
+#: .\tracker\templates\tracker\setting.html:58
+msgid "Personalize your tracking logic"
+msgstr "మీ ట్రాకింగ్ లాజిక్‌ను వ్యక్తిగతీకరించండి"
+
+#: .\tracker\templates\tracker\setting.html:71
+#: .\tracker\templates\tracker\setting.html:101
+msgid "Budget Controls"
+msgstr "బడ్జెట్ నియంత్రణలు"
+
+#: .\tracker\templates\tracker\setting.html:77
+#: .\tracker\templates\tracker\setting.html:144
+msgid "Data & Privacy"
+msgstr "డేటా & గోప్యత"
+
+#: .\tracker\templates\tracker\setting.html:83
+#: .\tracker\templates\tracker\setting.html:176
+msgid "Quick Links"
+msgstr "త్వరిత లింకులు"
+
+#: .\tracker\templates\tracker\setting.html:89
+#: .\tracker\templates\tracker\setting.html:196
+msgid "Security"
+msgstr "ఖాతా భద్రత"
+
+#: .\tracker\templates\tracker\setting.html:107
+msgid "Monthly Income"
+msgstr "మొత్తం ఆదాయం"
+
+#: .\tracker\templates\tracker\setting.html:108
+msgid "Used for health & insights"
+msgstr "ఆరోగ్యం & అవగాహన కోసం ఉపయోగించబడుతుంది"
+
+#: .\tracker\templates\tracker\setting.html:114
+msgid "Spending Health Threshold"
+msgstr "ఆరోగ్య హెచ్చరిక సరిహద్దు"
+
+#: .\tracker\templates\tracker\setting.html:115
+msgid "Warning trigger level"
+msgstr "హెచ్చరిక ప్రేరణ స్థాయి"
+
+#: .\tracker\templates\tracker\setting.html:124
+msgid "Billing Cycle Start"
+msgstr "బిల్లింగ్ చక్రం"
+
+#: .\tracker\templates\tracker\setting.html:125
+msgid "Monthly reset day"
+msgstr "మాసానికి సారాంశం"
+
+#: .\tracker\templates\tracker\setting.html:128
+msgid "1st of the Month"
+msgstr "నెలలో 1వ తేది"
+
+#: .\tracker\templates\tracker\setting.html:129
+msgid "6th of the Month"
+msgstr "నెలలో 10వ తేదీ"
+
+#: .\tracker\templates\tracker\setting.html:130
+msgid "12th of thr Month"
+msgstr "నెలలో 10వ తేదీ"
+
+#: .\tracker\templates\tracker\setting.html:134
+msgid "Update Preferences"
+msgstr "ప్రాధాన్యాలను నవీకరించండి"
+
+#: .\tracker\templates\tracker\setting.html:149
+msgid "Export Data"
+msgstr "డేటాను ఎగుమతి చేయండి"
+
+#: .\tracker\templates\tracker\setting.html:153
+msgid "CSV"
+msgstr "సీఎస్వీ"
+
+#: .\tracker\templates\tracker\setting.html:156
+msgid "PDF"
+msgstr "పీడీఎఫ్"
+
+#: .\tracker\templates\tracker\setting.html:162
+msgid "Delete All Data"
+msgstr "అన్ని డేటాను తొలగించండి"
+
+#: .\tracker\templates\tracker\setting.html:165
+msgid "Delete"
+msgstr "తొలిగించు"
+
+#: .\tracker\templates\tracker\setting.html:180
+msgid "About Mission"
+msgstr "మిషన్ గురించి"
+
+#: .\tracker\templates\tracker\setting.html:184
+msgid "Submit Feedback"
+msgstr "ఫీడ్‌బ్యాక్ సమర్పించండి"
+
+#: .\tracker\templates\tracker\setting.html:200
+msgid "Change Password"
+msgstr "పాస్‌వర్డ్ మార్చండి"
+
+#: .\tracker\views.py:43
+msgid "Passwords do not match!"
+msgstr ""
+
+#: .\tracker\views.py:47
+msgid "Email already registered"
+msgstr ""
+
+#: .\tracker\views.py:56
+msgid "Account created successfully"
+msgstr ""
+
+#: .\tracker\views.py:127
+msgid "Enter valid INCOME value!"
+msgstr "చెల్లుబాటు అయ్యే ఆదాయం విలువని నమోదు చేయండి!"
+
+#: .\tracker\views.py:136
+msgid "No expenses yet!"
+msgstr "మొత్తం ఖర్చులు"
+
+#: .\tracker\views.py:139
+msgid "Your spending is under control 👍"
+msgstr "మీ ఖర్చులు మీరు నియంత్రణలో ఉంచారు 👍"
+
+#: .\tracker\views.py:142
+msgid "Warning! Your spending is approaching your threshold! ⚠️"
+msgstr "హెచ్చరిక! మీ ఖర్చులు మీ మీతర్కాన్ని చేర! ⚠️"
+
+#: .\tracker\views.py:145
+msgid "Danger! You have exceeded your budget 🚨"
+msgstr "హెచ్చరిక! మీరు మీ బడ్జెట్‌ను మించుకున్నారు 🚨"
+
+#: .\tracker\views.py:298
+msgid "Thank you! Your message has been sent."
+msgstr "ధన్యవాదాలు! మీ సందేశం పంపించబడింది."
+
+#: .\tracker\views.py:352
+msgid "Preferences updated successfully!"
+msgstr "ప్రాధాన్యాలను విజయవంతంగా అప్‌డేట్ చేయబడింది!"
+
+#~ msgid "Messages"
+#~ msgstr "संदेश"
+
+
+#~| msgid "Enter valid INCOME value!"
+#~ msgid "Enter a valid value."
+#~ msgstr "చెల్లుబాటు అయ్యే ఆదాయం విలువని నమోదు చేయండి!"
+
+
+#~| msgid "Enter your name..."
+#~ msgid "Enter a number."
+#~ msgstr "మీ పేరు నమోదు చేయండి..."
+
+
+#~| msgid "Transactions"
+#~ msgid "Duration"
+#~ msgstr "లావాదేవీలు"
+
+
+#~| msgid "Email Address"
+#~ msgid "Email address"
+#~ msgstr "ఇమెయిల్ చిరునామా"
+
+
+#~| msgid "Email Address"
+#~ msgid "IP address"
+#~ msgstr "ఇమెయిల్ చిరునామా"
+
+
+#~| msgid "Enter your name..."
+#~ msgid "Enter a whole number."
+#~ msgstr "మీ పేరు నమోదు చేయండి..."
+
+
+#~| msgid "Enter valid INCOME value!"
+#~ msgid "Enter a valid date."
+#~ msgstr "చెల్లుబాటు అయ్యే ఆదాయం విలువని నమోదు చేయండి!"
+
+
+#~| msgid "Enter valid INCOME value!"
+#~ msgid "Enter a list of values."
+#~ msgstr "చెల్లుబాటు అయ్యే ఆదాయం విలువని నమోదు చేయండి!"
+
+
+#~| msgid "Save Changes"
+#~ msgid "Change"
+#~ msgstr "మార్పులను సేవ్ చేయండి"

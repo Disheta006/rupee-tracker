@@ -1,0 +1,122 @@
+{% load static %}
+{% load i18n %}
+<!doctype html>
+<html lang="{{ LANGUAGE_CODE }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link href="{% static 'tracker/css/output.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'tracker/css/style.css' %}">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css" integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-green-50 font-sans" x-data="{ mobileMenuOpen:false }">
+
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center gap-2">
+                   <div class="bg-custom-green p-1.5 rounded-lg">
+                    <i class="fa-solid fa-indian-rupee-sign text-white text-xl"></i>
+                   </div>
+                   <span class="text-xl font-bold text-gray-800">{% trans "Rupee Tracker" %}</span>
+                </div>
+                <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+                    <a href="{% url 'home' %}" class="text-gray-600">{% trans "Home" %}</a>
+                    <a href="{% url 'about' %}" class="text-gray-600">{% trans "About" %}</a>
+                    <a href="{% url 'dashboard' %}" class="text-gray-600">{% trans "Dashboard" %}</a>
+                    <a href="{% url 'contact' %}" class="text-gray-600">{% trans "Contact Us" %}</a>
+                    <a href="{% url 'setting' %}" class="text-gray-600">{% trans "Settings" %}</a>
+                </div>
+                <div class="flex items-center gap-4">
+                    <button class="hidden sm:block text-gray-500 hover:text-custom-green_tone1"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="bg-custom-green text-white px-4 py-1.5 rounded-full text-sm font-semibold hover:opacity-90"><a href="{% url 'login_page' %}">{% trans "Login" %}</a></button>
+                    <button @click="mobileMenuOpen = ! mobileMenuOpen" class="md:hidden text-gray-600 text-2xl">
+                        <i :class="mobileMenuOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div x-show="mobileMenuOpen" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-4" x-transition-end="opacity-100 translate-y-0" class="md:hidden bg-white border-t border-gray-100 px-4 py-4 space-y-3 shadow-lg">
+            <a href="{% url 'home' %}" class="block text-gray-600">{% trans "Home" %}</a>
+            <a href="{% url 'about' %}" class="block text-gray-600">{% trans "About" %}</a>
+            <a href="{% url 'dashboard' %}" class="block text-gray-600">{% trans "Dashboard" %}</a>
+            <a href="{% url 'contact' %}" class="block text-gray-600">{% trans "Contact Us" %}</a>
+            <a href="{% url 'setting' %}" class="block text-gray-600">{% trans "Settings" %}</a>
+        </div>
+    </nav>
+    
+  <section class="max-w-6xl mx-auto px-4 py-8">  
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      </div>
+      <div class="carousel-inner rounded-3xl shadow-xl">
+        <div class="carousel-item active bg-cover bg-center overflow-hidden finance" style="background-image: url({% static 'tracker/assets/finance.jpg' %}); min-height: 400px;">
+          <div class="flex flex-col items-center justify-center h-full bg-black/40 text-center text-white px-6">
+            <h2 class="text-3xl md:text-5xl font-bold mb-4">{% trans "Let's Get Started" %}</h2>
+            <p class="text-base md:text-lg opacity-90">{% trans "Take control of your finances today." %}</p>
+            <button class="mt-6 bg-white text-custom-green_tone1 px-8 py-2 rounded-full font-bold">
+              <a href="{% url 'dashboard' %}">
+                {% trans "Explore Now" %}
+              </a>
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item bg-cover bg-center overflow-hidden" style="background-image: url({% static 'tracker/assets/visual.jpg' %}); min-height: 400px;">
+          <div class="flex flex-col items-center justify-center h-full bg-black/40 text-center text-white px-6">
+            <h2 class="text-3xl md:text-5xl font-bold mb-4">{% trans "Smart Tracking" %}</h2>
+            <p class="text-base md:text-lg opacity-90">{% trans "View spending with smart charts." %}</p>
+            <button class="mt-6 bg-white text-custom-green_tone1 px-8 py-2 rounded-full font-bold">
+              <a href="{% url 'charts' %}">
+                {% trans "Visualize Data" %}
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </section>
+
+<section class="max-w-6xl mx-auto px-6 mt-12 mb-4">
+  <div class="bg-white rounded-[2rem] shadow-2xl p-9 border border-gray-100">
+    <div class="flex items-center gap-3 mb-6">
+      <h2 class="text-3xl font-bold text-gray-800 pt-1">{% trans "Demo" %}</h2>
+      <i class="fa-solid fa-arrow-right text-custom-green_tone1 mt-2"></i>
+    </div>
+    <p class="text-gray-700 text-sm -mt-5">{% trans "Here is quick sneak-peek on how <b> Rupee Tracker</b> works!" %}</p>
+    <div class="relative bg-black rounded-3xl mt-4 overflow-hidden shadow-2xl aspect-video">
+      <video autoplay muted loop playsinline class="w-full h-full object-cover" >
+        <source src="{% static 'tracker/assets/screen_record.mp4' %}" type="video/mp4">
+                Your browser does not support the video tag.
+      </video>
+    </div>
+    <div>
+      <a href="{% static 'tracker/assets/guide.pdf' %}" class="inline-flex items-center gap-2 mt-6 px-6 py-3 bg-custom-green text-white font-semibold rounded-xl shadow hover:hover-[#748c69] transition">👉 Download User Guide</a>
+    </div>
+  </div>
+</section>
+
+<div class="fixed bottom-6 right-6 z-100" x-data="{ mobileMenuOpen:false }">
+  <a href="{% url 'cycle_language' %}" class="w-14 h-14 bg-[#5f8724] text-white rounded-full shadow-lg flex items-center justify-center hover:bg-[#748c69] transition-all duration-300 transform hover:scale-110 active:scale-95 focus:outline-none">
+    <i class="fa-solid fa-globe text-xl"></i>
+  </a>
+</div>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+{% load static %}
+{% load i18n %}
+<!doctype html>
+<html lang="{{ LANGUAGE_CODE }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Expenses</title>
+    <link href="{% static 'tracker/css/output.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'tracker/css/style.css' %}">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen flex items-center justify-center bg-green-50" x-data="{ mobileMenuOpen:false }">
+    <div class="w-full max-w-md p-8 space-y-8 bg-white rounded-xl shadow-lg border border-gray-200">
+        <div class="text-center">
+            <h1 class="text-3xl font-bold text-custom-green_tone1">{% trans 'Edit Expenses' %}</h1>
+        </div>
+        <form method="POST">
+            {% csrf_token %}
+                <div class="space-y-2">
+                    <label for="title" class="block text-sm font-medium text-custom-green_tone1">{% trans 'Title '%}</label>
+                    <input type="text" name="title" value="{{ expenses.title }}" class="block w-full rounded-md border border-custom-green px-4 py-3 text-gray-900 placeholder-gray-400 focus:ring-2 focus:ring-green-500 outline-none">
+                </div>
+                <div class="space-y-2">
+                    <label for="amount" class="block text-sm font-medium text-custom-green_tone1 mt-2">{% trans "Amount" %}</label>
+                    <input type="amount" name="amount" value="{{ expenses.amount }}" class="block w-full rounded-md border border-custom-green mt-2 px-4 py-3 text-gray-900 placeholder-gray-400 focus:ring-2 focus:ring-green-500 outline-none">
+                </div>
+                <div class="space-y-2">
+                    <label for="category" class="block text-sm font-medium text-custom-green_tone1 mt-2">{% trans 'Category' %}</label>
+                    <input type="category" name="category" value="{{ expenses.category }}" class="block w-full rounded-md border border-custom-green mt-2 px-4 py-3 text-gray-900 placeholder-gray-400 focus:ring-2 focus:ring-green-500 outline-none">
+                </div>
+                <div class="space-y-2">
+                    <label for="date" class="block text-sm font-medium text-custom-green_tone1 mt-2">{% trans 'Date' %}</label>
+                    <input type="date" name="date" value="{{ expenses.date|date:'Y-m-d' }}" class="block w-full rounded-md border border-custom-green mt-2 px-4 py-3 text-gray-900 placeholder-gray-400 focus:ring-2 focus:ring-green-500 outline-none">
+                </div>
+                <button type="submit" class="flex justify-center 
+                items-center p-2 mt-3 bg-custom-green rounded-lg text-white font-semibold">{% trans 'Save Changes' %}</button>
+        </form>
+    </div>    
+ </body>
+</html>
