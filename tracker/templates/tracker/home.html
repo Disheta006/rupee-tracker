@@ -95,11 +95,9 @@
       <i class="fa-solid fa-arrow-right text-custom-green_tone1 mt-2"></i>
     </div>
     <p class="text-gray-700 text-sm -mt-5">{% trans "Here is quick sneak-peek on how <b> Rupee Tracker</b> works!" %}</p>
-    <div class="relative bg-black rounded-3xl mt-4 overflow-hidden shadow-2xl aspect-video">
-      <video autoplay muted loop playsinline class="w-full h-full object-cover" >
-        <source src="{% static 'tracker/assets/screen_record.mp4' %}" type="video/mp4">
-                Your browser does not support the video tag.
-      </video>
+    <div class="relative w-full h-0 pb-[56.25%] mt-4 overflow-hidden rounded-3xl shadow-2xl bg-black">
+      <iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube-nocookie.com/embed/JWO1NaBLEio?autoplay=1&mute=1&loop=1&playlist=JWO1NaBLEio&controls=1&rel=0&modestbranding=1&playsinline=1" allow="autoplay; encrypted-media; picture-in-picture" frameborder="0" referrerpolicy="strict-origin-when-cross-origin">
+      </iframe>
     </div>
     <div>
       <a href="{% static 'tracker/assets/guide.pdf' %}" class="inline-flex items-center gap-2 mt-6 px-6 py-3 bg-custom-green text-white font-semibold rounded-xl shadow hover:hover-[#748c69] transition">👉 Download User Guide</a>
