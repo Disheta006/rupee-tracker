@@ -159,3 +159,5 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR/'staticfiles'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+
+DEFAULT_AUTO_FEILD = 'django.db.models.BigAutoField'
