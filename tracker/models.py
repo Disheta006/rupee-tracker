@@ -9,18 +9,18 @@ class Expense(models.Model):
 
     def __str__(self):
         return f"{self.date}-{self.description}"
-    CATEGORY_CHOICES = {
-        'Food':_('Food'),
-        'Shopping':_('Shopping'),
-        'Housing':_('Housing'),
-        'Transport':_('Transport'),
-        'Entertainment':_('Entertainment'),
-        'Health':_('Health'),
-        'Others':_('Others'),
-    }
+    CATEGORY_CHOICES = (
+        ('Food',_('Food')),
+        ('Shopping',_('Shopping')),
+        ('Housing',_('Housing')),
+        ('Transport',_('Transport')),
+        ('Entertainment',_('Entertainment')),
+        ('Health',_('Health')),
+        ('Others',_('Others')),
+    )
     title = models.CharField(max_length=100)
     amount = models.FloatField()
-    category = models.CharField(max_length=20, choices=CATEGORY_CHOICES)
+    category = models.CharField(max_length=50, choices=CATEGORY_CHOICES)
     date = models.DateField()
     created_at = models.DateTimeField(auto_now_add=True)
     description = models.TextField(blank=True,null=True)
