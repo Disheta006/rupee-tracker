@@ -341,6 +341,7 @@ def export_pdf(request):
     p.save()
     return response
 
+@never_cache
 @login_required
 def setting(request):
     settings, created = UserSettings.objects.get_or_create(user=request.user)
