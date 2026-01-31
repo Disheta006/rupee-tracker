@@ -358,6 +358,22 @@ def delete_all_data(request):
     Expense.objects.filter(user=request.user).delete()
     return redirect('dashboard')
 
+@login_required
+def hide_amounts(request):
+    try:
+        security = request.user.usersettings
+        security.hide_amounts = not security.hide_amounts
+        security.save()
+        return JsonResponse({
+            'status':'success',
+            'hide_amounts': security.hide_amounts
+        })
+    except Exception as e:
+        return JsonResponse({
+            "status":"error",
+            "message":str(e)
+        },status=500)
+    
 def logout_view(request):
     logout(request)
     messages.success(request,"You have been logged out successfully.")

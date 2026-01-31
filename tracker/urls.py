@@ -24,6 +24,7 @@ urlpatterns = [
     path('contact',views.contact,name="contact"),
     path('export/csv/',views.export_csv,name="export_csv"),
     path('export/pdf/',views.export_pdf,name="export_pdf"),
+    path('hide_amounts',views.hide_amounts,name='hide_amounts'),
     path('delete_all_data/',views.delete_all_data,name="delete_all_data"),
     path('setting',views.setting,name="setting"),
     path('logout/',views.logout_view,name="logout"),

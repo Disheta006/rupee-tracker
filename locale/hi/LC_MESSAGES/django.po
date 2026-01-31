@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-27 14:58+0530\n"
+"POT-Creation-Date: 2026-01-31 17:02+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,76 +17,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\tracker\models.py:13 .\tracker\templates\tracker\category.html:34
-#: .\tracker\templates\tracker\dashboard.html:195
+#: .\tracker\models.py:13 .\tracker\templates\tracker\category.html:35
+#: .\tracker\templates\tracker\dashboard.html:198
 msgid "Food"
 msgstr "खाना"
 
-#: .\tracker\models.py:14 .\tracker\templates\tracker\category.html:41
-#: .\tracker\templates\tracker\dashboard.html:196
+#: .\tracker\models.py:14 .\tracker\templates\tracker\category.html:42
+#: .\tracker\templates\tracker\dashboard.html:199
 msgid "Shopping"
 msgstr "खरीदारी"
 
-#: .\tracker\models.py:15 .\tracker\templates\tracker\category.html:48
-#: .\tracker\templates\tracker\dashboard.html:197
+#: .\tracker\models.py:15 .\tracker\templates\tracker\category.html:49
+#: .\tracker\templates\tracker\dashboard.html:200
 msgid "Housing"
 msgstr "आवास"
 
-#: .\tracker\models.py:16 .\tracker\templates\tracker\category.html:55
-#: .\tracker\templates\tracker\dashboard.html:198
+#: .\tracker\models.py:16 .\tracker\templates\tracker\category.html:56
+#: .\tracker\templates\tracker\dashboard.html:201
 msgid "Transport"
 msgstr "परिवहन"
 
-#: .\tracker\models.py:17 .\tracker\templates\tracker\category.html:62
-#: .\tracker\templates\tracker\dashboard.html:199
+#: .\tracker\models.py:17 .\tracker\templates\tracker\category.html:63
+#: .\tracker\templates\tracker\dashboard.html:202
 msgid "Entertainment"
 msgstr "मनोरंजन"
 
-#: .\tracker\models.py:18 .\tracker\templates\tracker\category.html:69
-#: .\tracker\templates\tracker\dashboard.html:200
+#: .\tracker\models.py:18 .\tracker\templates\tracker\category.html:70
+#: .\tracker\templates\tracker\dashboard.html:203
 msgid "Health"
 msgstr "स्वास्थ्य स्थिति"
 
-#: .\tracker\models.py:19 .\tracker\templates\tracker\dashboard.html:201
+#: .\tracker\models.py:19 .\tracker\templates\tracker\dashboard.html:204
 msgid "Others"
 msgstr "अन्य"
 
-#: .\tracker\models.py:41 .\tracker\templates\tracker\contact.html:93
+#: .\tracker\models.py:41 .\tracker\templates\tracker\contact.html:94
 msgid "General Feedback"
 msgstr "सामान्य प्रतिक्रिया"
 
-#: .\tracker\models.py:42 .\tracker\templates\tracker\contact.html:94
+#: .\tracker\models.py:42 .\tracker\templates\tracker\contact.html:95
 msgid "Technical Issue"
 msgstr "तकनीकी समस्या"
 
-#: .\tracker\models.py:43 .\tracker\templates\tracker\contact.html:95
+#: .\tracker\models.py:43 .\tracker\templates\tracker\contact.html:96
 msgid "Feature Request"
 msgstr "फ़ीचर अनुरोध"
 
-#: .\tracker\templates\tracker\about.html:24
-#: .\tracker\templates\tracker\contact.html:26
-#: .\tracker\templates\tracker\dashboard.html:27
-#: .\tracker\templates\tracker\home.html:25
-#: .\tracker\templates\tracker\setting.html:24
+#: .\tracker\templates\tracker\about.html:25
+#: .\tracker\templates\tracker\contact.html:27
+#: .\tracker\templates\tracker\dashboard.html:28
+#: .\tracker\templates\tracker\home.html:26
+#: .\tracker\templates\tracker\setting.html:25
 msgid "Rupee Tracker"
 msgstr "रुपया ट्रैकर"
 
-#: .\tracker\templates\tracker\about.html:27
-#: .\tracker\templates\tracker\about.html:43
-#: .\tracker\templates\tracker\contact.html:29
-#: .\tracker\templates\tracker\contact.html:45
-#: .\tracker\templates\tracker\dashboard.html:30
-#: .\tracker\templates\tracker\dashboard.html:46
-#: .\tracker\templates\tracker\home.html:28
-#: .\tracker\templates\tracker\home.html:44
-#: .\tracker\templates\tracker\setting.html:27
-#: .\tracker\templates\tracker\setting.html:43
-msgid "Home"
-msgstr "घर"
-
 #: .\tracker\templates\tracker\about.html:28
 #: .\tracker\templates\tracker\about.html:44
-#: .\tracker\templates\tracker\about.html:57
 #: .\tracker\templates\tracker\contact.html:30
 #: .\tracker\templates\tracker\contact.html:46
 #: .\tracker\templates\tracker\dashboard.html:31
@@ -95,63 +81,78 @@ msgstr "घर"
 #: .\tracker\templates\tracker\home.html:45
 #: .\tracker\templates\tracker\setting.html:28
 #: .\tracker\templates\tracker\setting.html:44
-msgid "About"
-msgstr "परिचय"
+msgid "Home"
+msgstr "घर"
 
 #: .\tracker\templates\tracker\about.html:29
 #: .\tracker\templates\tracker\about.html:45
+#: .\tracker\templates\tracker\about.html:58
 #: .\tracker\templates\tracker\contact.html:31
 #: .\tracker\templates\tracker\contact.html:47
 #: .\tracker\templates\tracker\dashboard.html:32
 #: .\tracker\templates\tracker\dashboard.html:48
-#: .\tracker\templates\tracker\dashboard.html:61
 #: .\tracker\templates\tracker\home.html:30
 #: .\tracker\templates\tracker\home.html:46
 #: .\tracker\templates\tracker\setting.html:29
 #: .\tracker\templates\tracker\setting.html:45
-msgid "Dashboard"
-msgstr "डैशबोर्ड"
+msgid "About"
+msgstr "परिचय"
 
 #: .\tracker\templates\tracker\about.html:30
 #: .\tracker\templates\tracker\about.html:46
 #: .\tracker\templates\tracker\contact.html:32
 #: .\tracker\templates\tracker\contact.html:48
-#: .\tracker\templates\tracker\contact.html:59
 #: .\tracker\templates\tracker\dashboard.html:33
 #: .\tracker\templates\tracker\dashboard.html:49
+#: .\tracker\templates\tracker\dashboard.html:62
 #: .\tracker\templates\tracker\home.html:31
 #: .\tracker\templates\tracker\home.html:47
 #: .\tracker\templates\tracker\setting.html:30
 #: .\tracker\templates\tracker\setting.html:46
-msgid "Contact Us"
-msgstr "संपर्क करें"
+msgid "Dashboard"
+msgstr "डैशबोर्ड"
 
 #: .\tracker\templates\tracker\about.html:31
 #: .\tracker\templates\tracker\about.html:47
 #: .\tracker\templates\tracker\contact.html:33
 #: .\tracker\templates\tracker\contact.html:49
+#: .\tracker\templates\tracker\contact.html:60
 #: .\tracker\templates\tracker\dashboard.html:34
 #: .\tracker\templates\tracker\dashboard.html:50
 #: .\tracker\templates\tracker\home.html:32
 #: .\tracker\templates\tracker\home.html:48
 #: .\tracker\templates\tracker\setting.html:31
 #: .\tracker\templates\tracker\setting.html:47
-#: .\tracker\templates\tracker\setting.html:57
+msgid "Contact Us"
+msgstr "संपर्क करें"
+
+#: .\tracker\templates\tracker\about.html:32
+#: .\tracker\templates\tracker\about.html:48
+#: .\tracker\templates\tracker\contact.html:34
+#: .\tracker\templates\tracker\contact.html:50
+#: .\tracker\templates\tracker\dashboard.html:35
+#: .\tracker\templates\tracker\dashboard.html:51
+#: .\tracker\templates\tracker\home.html:33
+#: .\tracker\templates\tracker\home.html:49
+#: .\tracker\templates\tracker\setting.html:32
+#: .\tracker\templates\tracker\setting.html:48
+#: .\tracker\templates\tracker\setting.html:58
 msgid "Settings"
 msgstr "सेटिंग्स"
 
-#: .\tracker\templates\tracker\about.html:35
-#: .\tracker\templates\tracker\contact.html:37
-#: .\tracker\templates\tracker\dashboard.html:38
-#: .\tracker\templates\tracker\setting.html:35
+#: .\tracker\templates\tracker\about.html:36
+#: .\tracker\templates\tracker\contact.html:38
+#: .\tracker\templates\tracker\dashboard.html:39
+#: .\tracker\templates\tracker\home.html:37
+#: .\tracker\templates\tracker\setting.html:36
 msgid "Login"
 msgstr "लॉगिन"
 
-#: .\tracker\templates\tracker\about.html:66
+#: .\tracker\templates\tracker\about.html:67
 msgid "Our Mission"
 msgstr "हमारा मिशन"
 
-#: .\tracker\templates\tracker\about.html:72
+#: .\tracker\templates\tracker\about.html:73
 msgid ""
 "  \n"
 "              \"Welcome to <span class=\"text-custom-green_tone1 font-"
@@ -164,7 +165,7 @@ msgstr ""
 "उतना ही स्वाभाविक होना चाहिए जितना कि सांस लेना। हमारा मिशन आपके दैनिक खर्चों को "
 "ट्रैक करने के लिए एक सहज, सुरक्षित और स्मार्ट प्लेटफ़ॉर्म प्रदान करना है।"
 
-#: .\tracker\templates\tracker\about.html:77
+#: .\tracker\templates\tracker\about.html:78
 msgid ""
 "Wheather you are tracking a morning coffee or your monthly rent, our "
 "platform helps you visualize your cash flow so you can make informed "
@@ -174,153 +175,153 @@ msgstr ""
 "प्लेटफ़ॉर्म आपको अपने नकदी प्रवाह को दृष्टिगत करने में मदद करता है ताकि आप एक स्वस्थ "
 "वित्तीय भविष्य के लिए सूचित निर्णय ले सकें।"
 
-#: .\tracker\templates\tracker\about.html:83
+#: .\tracker\templates\tracker\about.html:84
 msgid "Features"
 msgstr "विशेषताएँ"
 
-#: .\tracker\templates\tracker\about.html:93
+#: .\tracker\templates\tracker\about.html:94
 msgid "Language Changing"
 msgstr "भाषा बदलना"
 
-#: .\tracker\templates\tracker\about.html:94
+#: .\tracker\templates\tracker\about.html:95
 msgid ""
 "Customize your experirence with multi-language support for global tracking."
 msgstr "वैश्विक ट्रैकिंग के लिए बहुभाषी समर्थन के साथ अपने अनुभव को अनुकूलित करें।"
 
-#: .\tracker\templates\tracker\about.html:102
+#: .\tracker\templates\tracker\about.html:103
 msgid "Feedback Section"
 msgstr "प्रतिपुष्टि अनुभाग"
 
-#: .\tracker\templates\tracker\about.html:103
+#: .\tracker\templates\tracker\about.html:104
 msgid ""
 "We value your input. We provide a generated opinion based on the expense "
 "flow."
 msgstr ""
 "हम आपकी राय को महत्व देते हैं। हम खर्च के प्रवाह के आधार पर एक उत्पन्न राय प्रदान करते हैं।"
 
-#: .\tracker\templates\tracker\about.html:111
-#: .\tracker\templates\tracker\dashboard.html:122
+#: .\tracker\templates\tracker\about.html:112
+#: .\tracker\templates\tracker\dashboard.html:125
 msgid "Health Status"
 msgstr "स्वास्थ्य स्थिति"
 
-#: .\tracker\templates\tracker\about.html:112
+#: .\tracker\templates\tracker\about.html:113
 msgid ""
 "Monitor you financial well-being with real-time budget health indicators."
 msgstr "वास्तविक समय के बजट स्वास्थ्य संकेतकों के साथ अपने वित्तीय कल्याण की निगरानी करें।"
 
-#: .\tracker\templates\tracker\about.html:120
-#: .\tracker\templates\tracker\calender.html:23
+#: .\tracker\templates\tracker\about.html:121
+#: .\tracker\templates\tracker\calender.html:24
 msgid "Calender"
 msgstr "कैलेंडर"
 
-#: .\tracker\templates\tracker\about.html:121
+#: .\tracker\templates\tracker\about.html:122
 msgid ""
 "Schedule recurring expenses and manage your financial timeline effortlessly."
 msgstr ""
 "लगातार होने वाले खर्चों को तय करें और अपनी वित्तीय समयरेखा को आसानी से प्रबंधित करें।"
 
-#: .\tracker\templates\tracker\about.html:129
+#: .\tracker\templates\tracker\about.html:130
 msgid "Data Visualization"
 msgstr "डेटा की कल्पना करें"
 
-#: .\tracker\templates\tracker\about.html:130
+#: .\tracker\templates\tracker\about.html:131
 msgid ""
 "Transform numbers into clarity with beautiful, interactive charts and "
 "spending reports."
 msgstr "खूबसूरत, इंटरैक्टिव चार्ट और खर्च रिपोर्ट के साथ संख्याओं को स्पष्टता में बदलें।"
 
-#: .\tracker\templates\tracker\about.html:139
+#: .\tracker\templates\tracker\about.html:140
 msgid "Our Team"
 msgstr "हमारी टीम"
 
-#: .\tracker\templates\tracker\about.html:147
+#: .\tracker\templates\tracker\about.html:148
 msgid "Lead Developer"
 msgstr "मुख्य डेवलपर"
 
-#: .\tracker\templates\tracker\about.html:148
+#: .\tracker\templates\tracker\about.html:149
 msgid "Full Stack Engineer"
 msgstr "फुल स्टैक इंजीनियर"
 
-#: .\tracker\templates\tracker\about.html:158
+#: .\tracker\templates\tracker\about.html:159
 msgid "UI/UX Designer"
 msgstr "यूआई/यूएक्स डिज़ाइनर"
 
-#: .\tracker\templates\tracker\about.html:159
+#: .\tracker\templates\tracker\about.html:160
 msgid "Creative Director"
 msgstr "क्रिएटिव डायरेक्टर"
 
-#: .\tracker\templates\tracker\analysis.html:23
-#: .\tracker\templates\tracker\dashboard.html:105
+#: .\tracker\templates\tracker\analysis.html:24
+#: .\tracker\templates\tracker\dashboard.html:108
 msgid "Analysis"
 msgstr "विश्लेषण"
 
-#: .\tracker\templates\tracker\analysis.html:24
+#: .\tracker\templates\tracker\analysis.html:25
 msgid "Clear insights. Better decisions."
 msgstr "स्पष्ट अंतर्दृष्टि। बेहतर निर्णय।"
 
-#: .\tracker\templates\tracker\analysis.html:32
+#: .\tracker\templates\tracker\analysis.html:33
 msgid "Spending by Category"
 msgstr "श्रेणी के अनुसार व्यय"
 
-#: .\tracker\templates\tracker\analysis.html:51
+#: .\tracker\templates\tracker\analysis.html:52
 msgid "No expense recorded yet."
 msgstr "अभी तक कोई व्यय दर्ज नहीं किया गया है।"
 
-#: .\tracker\templates\tracker\analysis.html:61
-#: .\tracker\templates\tracker\calender.html:78
+#: .\tracker\templates\tracker\analysis.html:62
+#: .\tracker\templates\tracker\calender.html:79
 msgid "Transactions"
 msgstr "लेन-देन"
 
-#: .\tracker\templates\tracker\analysis.html:68
+#: .\tracker\templates\tracker\analysis.html:69
 msgid "Average"
 msgstr "औसत"
 
-#: .\tracker\templates\tracker\calender.html:24
+#: .\tracker\templates\tracker\calender.html:25
 msgid "Every date tells a spending story."
 msgstr "हर तिथि एक खर्च की कहानी बताती है।"
 
-#: .\tracker\templates\tracker\calender.html:68
+#: .\tracker\templates\tracker\calender.html:69
 msgid "Monthly Summary"
 msgstr "मासिक सारांश"
 
-#: .\tracker\templates\tracker\calender.html:72
+#: .\tracker\templates\tracker\calender.html:73
 msgid "Total Spent"
 msgstr "कुल खर्च"
 
-#: .\tracker\templates\tracker\category.html:23
-#: .\tracker\templates\tracker\edit_expense.html:30
+#: .\tracker\templates\tracker\category.html:24
+#: .\tracker\templates\tracker\edit_expense.html:31
 msgid "Category"
 msgstr "श्रेणी"
 
-#: .\tracker\templates\tracker\category.html:24
+#: .\tracker\templates\tracker\category.html:25
 msgid "Smart categories. Smarter tracking."
 msgstr "स्मार्ट श्रेणियां। और भी स्मार्ट ट्रैकिंग।"
 
-#: .\tracker\templates\tracker\category.html:76
+#: .\tracker\templates\tracker\category.html:77
 msgid "Other"
 msgstr "अन्य"
 
-#: .\tracker\templates\tracker\charts.html:23
+#: .\tracker\templates\tracker\charts.html:24
 msgid "Charts"
 msgstr "चार्ट"
 
-#: .\tracker\templates\tracker\charts.html:24
+#: .\tracker\templates\tracker\charts.html:25
 msgid "Visual clarity for your finances."
 msgstr "आज ही अपनी वित्तीय स्थिति पर नियंत्रण पाएं"
 
-#: .\tracker\templates\tracker\charts.html:32
+#: .\tracker\templates\tracker\charts.html:33
 msgid "Spending Overview"
 msgstr "खर्च का अवलोकन"
 
-#: .\tracker\templates\tracker\charts.html:36
+#: .\tracker\templates\tracker\charts.html:37
 msgid "Total Spending:"
 msgstr "कुल खर्च:"
 
-#: .\tracker\templates\tracker\charts.html:43
+#: .\tracker\templates\tracker\charts.html:44
 msgid "Category Distribution"
 msgstr "श्रेणी वितरण"
 
-#: .\tracker\templates\tracker\contact.html:60
+#: .\tracker\templates\tracker\contact.html:61
 msgid ""
 "Have any suggestion for the <b> Rupee Tracker</b>? We'd love to hear from "
 "you!"
@@ -328,251 +329,250 @@ msgstr ""
 "क्या आपके पास <b>रुपया ट्रैकर</b> के लिए कोई सुझाव है? हम आपसे सुनना पसंद करेंगे!क्या आपके "
 "पास <b>रुपया ट्रैकर</b> के लिए कोई सुझाव है? हम आपकी राय सुनना पसंद करेंगे!"
 
-#: .\tracker\templates\tracker\contact.html:78
+#: .\tracker\templates\tracker\contact.html:79
 msgid "Full Name"
 msgstr "पूरा नाम"
 
-#: .\tracker\templates\tracker\contact.html:80
+#: .\tracker\templates\tracker\contact.html:81
 msgid "Enter your name..."
 msgstr "अपना नाम दर्ज करें..."
 
-#: .\tracker\templates\tracker\contact.html:84
+#: .\tracker\templates\tracker\contact.html:85
 msgid "Email Address"
 msgstr "ईमेल पता"
 
-#: .\tracker\templates\tracker\contact.html:90
+#: .\tracker\templates\tracker\contact.html:91
 msgid "Type"
 msgstr "टाइप"
 
-#: .\tracker\templates\tracker\contact.html:100
+#: .\tracker\templates\tracker\contact.html:101
 msgid "Message"
 msgstr "संदेश"
 
-#: .\tracker\templates\tracker\contact.html:102
+#: .\tracker\templates\tracker\contact.html:103
 msgid "How can we improve your tracking experirence?"
 msgstr "हम आपके ट्रैकिंग अनुभव को कैसे बेहतर बना सकते हैं?"
 
-#: .\tracker\templates\tracker\contact.html:104
+#: .\tracker\templates\tracker\contact.html:105
 msgid "Send Feedback"
 msgstr "प्रतिपुष्टि भेजें"
 
-#: .\tracker\templates\tracker\contact.html:111
+#: .\tracker\templates\tracker\contact.html:112
 msgid "Email Us"
 msgstr "हमें ईमेल करें"
 
-#: .\tracker\templates\tracker\contact.html:116
+#: .\tracker\templates\tracker\contact.html:117
 msgid "Call Us"
 msgstr "हमें कॉल करें"
 
-#: .\tracker\templates\tracker\dashboard.html:62
+#: .\tracker\templates\tracker\dashboard.html:63
 msgid "Track your expenses and control flow here!"
 msgstr "यहाँ अपने खर्चों को ट्रैक करें और प्रवाह को नियंत्रित करें!"
 
-#: .\tracker\templates\tracker\dashboard.html:71
+#: .\tracker\templates\tracker\dashboard.html:72
 msgid "Budget Overview"
 msgstr "बजट अवलोकन"
 
-#: .\tracker\templates\tracker\dashboard.html:79
+#: .\tracker\templates\tracker\dashboard.html:80
 msgid "Total Income"
 msgstr "कुल आय"
 
-#: .\tracker\templates\tracker\dashboard.html:84
-msgid "Update"
-msgstr "अपडेट"
-
-#: .\tracker\templates\tracker\dashboard.html:89
+#: .\tracker\templates\tracker\dashboard.html:92
 msgid "Total Expenses"
 msgstr "कुल खर्च"
 
-#: .\tracker\templates\tracker\dashboard.html:101
+#: .\tracker\templates\tracker\dashboard.html:104
 msgid "Financial Insights"
 msgstr "वित्तीय जानकारी"
 
-#: .\tracker\templates\tracker\dashboard.html:109
+#: .\tracker\templates\tracker\dashboard.html:112
 msgid "category"
 msgstr "श्रेणी"
 
-#: .\tracker\templates\tracker\dashboard.html:113
+#: .\tracker\templates\tracker\dashboard.html:116
 msgid "charts"
 msgstr "चार्ट"
 
-#: .\tracker\templates\tracker\dashboard.html:151
+#: .\tracker\templates\tracker\dashboard.html:154
 msgid "Recent Expenses"
 msgstr "हाल की खर्चें"
 
-#: .\tracker\templates\tracker\dashboard.html:164
+#: .\tracker\templates\tracker\dashboard.html:167
 msgid "No expenses yet"
 msgstr "कुल खर्च"
 
-#: .\tracker\templates\tracker\dashboard.html:182
+#: .\tracker\templates\tracker\dashboard.html:185
 msgid "Add Expense"
 msgstr "खर्च जोड़ें"
 
-#: .\tracker\templates\tracker\dashboard.html:188
+#: .\tracker\templates\tracker\dashboard.html:191
 msgid "Title"
 msgstr "शीर्षक"
 
-#: .\tracker\templates\tracker\dashboard.html:191
-#: .\tracker\templates\tracker\edit_expense.html:26
+#: .\tracker\templates\tracker\dashboard.html:194
+#: .\tracker\templates\tracker\edit_expense.html:27
 msgid "Amount"
 msgstr "राशि"
 
-#: .\tracker\templates\tracker\dashboard.html:209
+#: .\tracker\templates\tracker\dashboard.html:212
 msgid "Cancel"
 msgstr "रद्द करें"
 
-#: .\tracker\templates\tracker\dashboard.html:210
+#: .\tracker\templates\tracker\dashboard.html:213
 msgid "Add"
 msgstr "जोड़ें"
 
-#: .\tracker\templates\tracker\edit_expense.html:17
+#: .\tracker\templates\tracker\edit_expense.html:18
 msgid "Edit Expenses"
 msgstr "खर्च जोड़ें"
 
-#: .\tracker\templates\tracker\edit_expense.html:22
+#: .\tracker\templates\tracker\edit_expense.html:23
 msgid "Title "
 msgstr "शीर्षक"
 
-#: .\tracker\templates\tracker\edit_expense.html:34
+#: .\tracker\templates\tracker\edit_expense.html:35
 msgid "Date"
 msgstr "तारीख"
 
-#: .\tracker\templates\tracker\edit_expense.html:38
+#: .\tracker\templates\tracker\edit_expense.html:39
 msgid "Save Changes"
 msgstr "परिवर्तनों को सहेजें"
 
-#: .\tracker\templates\tracker\home.html:36
-#: .\tracker\templates\tracker\setting.html:204
-msgid "Logout"
-msgstr "लॉग आउट"
-
-#: .\tracker\templates\tracker\home.html:61
+#: .\tracker\templates\tracker\home.html:62
 msgid "Let's Get Started"
 msgstr "आइए शुरू करते हैं"
 
-#: .\tracker\templates\tracker\home.html:62
+#: .\tracker\templates\tracker\home.html:63
 msgid "Take control of your finances today."
 msgstr "आज ही अपनी वित्तीय स्थिति पर नियंत्रण पाएं"
 
-#: .\tracker\templates\tracker\home.html:65
+#: .\tracker\templates\tracker\home.html:66
 msgid "Explore Now"
 msgstr "अब एक्सप्लोर करें"
 
-#: .\tracker\templates\tracker\home.html:72
+#: .\tracker\templates\tracker\home.html:73
 msgid "Smart Tracking"
 msgstr "स्मार्ट ट्रैकिंग"
 
-#: .\tracker\templates\tracker\home.html:73
+#: .\tracker\templates\tracker\home.html:74
 msgid "View spending with smart charts."
 msgstr "स्मार्ट चार्ट्स के साथ खर्चों को देखें"
 
-#: .\tracker\templates\tracker\home.html:76
+#: .\tracker\templates\tracker\home.html:77
 msgid "Visualize Data"
 msgstr "डेटा की कल्पना करें"
 
-#: .\tracker\templates\tracker\home.html:94
+#: .\tracker\templates\tracker\home.html:95
 msgid "Demo"
 msgstr "डेमो"
 
-#: .\tracker\templates\tracker\home.html:97
+#: .\tracker\templates\tracker\home.html:98
 msgid "Here is quick sneak-peek on how <b> Rupee Tracker</b> works!"
 msgstr "यहाँ <b>रुपी ट्रैकर</b> कैसे काम करता है, इसका एक त्वरित झलक है!"
 
-#: .\tracker\templates\tracker\setting.html:58
+#: .\tracker\templates\tracker\setting.html:59
 msgid "Personalize your tracking logic"
 msgstr "अपने ट्रैकिंग लॉजिक को व्यक्तिगत बनाएं"
 
-#: .\tracker\templates\tracker\setting.html:71
-#: .\tracker\templates\tracker\setting.html:101
+#: .\tracker\templates\tracker\setting.html:72
+#: .\tracker\templates\tracker\setting.html:102
 msgid "Budget Controls"
 msgstr "बजट नियंत्रण"
 
-#: .\tracker\templates\tracker\setting.html:77
-#: .\tracker\templates\tracker\setting.html:144
+#: .\tracker\templates\tracker\setting.html:78
+#: .\tracker\templates\tracker\setting.html:145
 msgid "Data & Privacy"
 msgstr "डेटा और गोपनीयता"
 
-#: .\tracker\templates\tracker\setting.html:83
-#: .\tracker\templates\tracker\setting.html:176
+#: .\tracker\templates\tracker\setting.html:84
+#: .\tracker\templates\tracker\setting.html:177
 msgid "Quick Links"
 msgstr "त्वरित लिंक"
 
-#: .\tracker\templates\tracker\setting.html:89
-#: .\tracker\templates\tracker\setting.html:196
+#: .\tracker\templates\tracker\setting.html:90
+#: .\tracker\templates\tracker\setting.html:197
 msgid "Security"
 msgstr "खाता सुरक्षा"
 
-#: .\tracker\templates\tracker\setting.html:107
+#: .\tracker\templates\tracker\setting.html:108
 msgid "Monthly Income"
 msgstr "कुल आय"
 
-#: .\tracker\templates\tracker\setting.html:108
+#: .\tracker\templates\tracker\setting.html:109
 msgid "Used for health & insights"
 msgstr "स्वास्थ्य और जानकारी के लिए उपयोग किया जाता है"
 
-#: .\tracker\templates\tracker\setting.html:114
+#: .\tracker\templates\tracker\setting.html:115
 msgid "Spending Health Threshold"
 msgstr "स्वास्थ्य चेतावनी सीमा"
 
-#: .\tracker\templates\tracker\setting.html:115
+#: .\tracker\templates\tracker\setting.html:116
 msgid "Warning trigger level"
 msgstr "चेतावनी ट्रिगर स्तर"
 
-#: .\tracker\templates\tracker\setting.html:124
+#: .\tracker\templates\tracker\setting.html:125
 msgid "Billing Cycle Start"
 msgstr "बिलिंग चक्र"
 
-#: .\tracker\templates\tracker\setting.html:125
+#: .\tracker\templates\tracker\setting.html:126
 msgid "Monthly reset day"
 msgstr "मासिक सारांश"
 
-#: .\tracker\templates\tracker\setting.html:128
+#: .\tracker\templates\tracker\setting.html:129
 msgid "1st of the Month"
 msgstr "महीने की पहली तारीख"
 
-#: .\tracker\templates\tracker\setting.html:129
+#: .\tracker\templates\tracker\setting.html:130
 msgid "6th of the Month"
 msgstr "महीने की 10 तारीख"
 
-#: .\tracker\templates\tracker\setting.html:130
+#: .\tracker\templates\tracker\setting.html:131
 msgid "12th of thr Month"
 msgstr "महीने की 10 तारीख"
 
-#: .\tracker\templates\tracker\setting.html:134
+#: .\tracker\templates\tracker\setting.html:135
 msgid "Update Preferences"
 msgstr "पसंद अपडेट करें"
 
-#: .\tracker\templates\tracker\setting.html:149
+#: .\tracker\templates\tracker\setting.html:150
 msgid "Export Data"
 msgstr "डेटा निर्यात करें"
 
-#: .\tracker\templates\tracker\setting.html:153
+#: .\tracker\templates\tracker\setting.html:154
 msgid "CSV"
 msgstr "सीएसवी"
 
-#: .\tracker\templates\tracker\setting.html:156
+#: .\tracker\templates\tracker\setting.html:157
 msgid "PDF"
 msgstr "पीडीएफ"
 
-#: .\tracker\templates\tracker\setting.html:162
+#: .\tracker\templates\tracker\setting.html:163
 msgid "Delete All Data"
 msgstr "सारा डेटा मिटाएँ"
 
-#: .\tracker\templates\tracker\setting.html:165
+#: .\tracker\templates\tracker\setting.html:166
 msgid "Delete"
 msgstr "हटाएँ"
 
-#: .\tracker\templates\tracker\setting.html:180
+#: .\tracker\templates\tracker\setting.html:181
 msgid "About Mission"
 msgstr "मिशन के बारे में"
 
-#: .\tracker\templates\tracker\setting.html:184
+#: .\tracker\templates\tracker\setting.html:185
 msgid "Submit Feedback"
 msgstr "प्रतिपुष्टि जमा करें"
 
-#: .\tracker\templates\tracker\setting.html:200
-msgid "Change Password"
-msgstr "पासवर्ड बदलें"
+#: .\tracker\templates\tracker\setting.html:202
+msgid "Hide Amounts"
+msgstr "राशि छुपाएं"
+
+#: .\tracker\templates\tracker\setting.html:203
+msgid "Mask financial values"
+msgstr "वित्तीय मान छुपाएँ"
+
+#: .\tracker\templates\tracker\setting.html:210
+msgid "Logout"
+msgstr "लॉग आउट"
 
 #: .\tracker\views.py:43
 msgid "Passwords do not match!"
@@ -617,47 +617,91 @@ msgstr "पसंद सफलतापूर्वक अपडेट हो �
 #~ msgid "Messages"
 #~ msgstr "संदेश"
 
-    
-#~| msgid "Enter valid INCOME value!"
 #~ msgid "Enter a valid value."
 #~ msgstr "मान्य आय मूल्य दर्ज करें!"
 
-    
-#~| msgid "Enter your name..."
+#~| msgid "Enter a valid date."
+#~ msgid "Enter a valid domain name."
+#~ msgstr "मान्य आय मूल्य दर्ज करें!"
+
+#~| msgid "Enter a valid date."
+#~ msgid "Enter a valid URL."
+#~ msgstr "मान्य आय मूल्य दर्ज करें!"
+
+#~| msgid "Enter a valid date."
+#~ msgid "Enter a valid integer."
+#~ msgstr "मान्य आय मूल्य दर्ज करें!"
+
+#~| msgid "Enter a valid value."
+#~ msgid "Enter a valid email address."
+#~ msgstr "मान्य आय मूल्य दर्ज करें!"
+
+#~| msgid "Enter a valid date."
+#~ msgid "Enter a valid %(protocol)s address."
+#~ msgstr "मान्य आय मूल्य दर्ज करें!"
+
 #~ msgid "Enter a number."
 #~ msgstr "अपना नाम दर्ज करें..."
 
-    
-#~| msgid "Transactions"
+#~| msgid "Enter a number."
+#~ msgid "Decimal number"
+#~ msgstr "अपना नाम दर्ज करें..."
+
 #~ msgid "Duration"
 #~ msgstr "लेन-देन"
 
-    
-#~| msgid "Email Address"
 #~ msgid "Email address"
 #~ msgstr "ईमेल पता"
 
-    
-#~| msgid "Email Address"
+#~| msgid "IP address"
+#~ msgid "IPv4 address"
+#~ msgstr "ईमेल पता"
+
 #~ msgid "IP address"
 #~ msgstr "ईमेल पता"
 
-  
-#~| msgid "Enter your name..."
 #~ msgid "Enter a whole number."
 #~ msgstr "अपना नाम दर्ज करें..."
 
-  
-#~| msgid "Enter valid INCOME value!"
 #~ msgid "Enter a valid date."
 #~ msgstr "मान्य आय मूल्य दर्ज करें!"
 
-  
-#~| msgid "Enter valid INCOME value!"
+#~| msgid "Enter a valid date."
+#~ msgid "Enter a valid time."
+#~ msgstr "मान्य आय मूल्य दर्ज करें!"
+
+#~| msgid "Enter a valid date."
+#~ msgid "Enter a valid date/time."
+#~ msgstr "मान्य आय मूल्य दर्ज करें!"
+
+#~| msgid "Enter a valid date."
+#~ msgid "Enter a valid duration."
+#~ msgstr "मान्य आय मूल्य दर्ज करें!"
+
 #~ msgid "Enter a list of values."
 #~ msgstr "मान्य आय मूल्य दर्ज करें!"
 
-    
-#~| msgid "Save Changes"
+#~| msgid "Enter a valid value."
+#~ msgid "Enter a complete value."
+#~ msgstr "मान्य आय मूल्य दर्ज करें!"
+
+#~| msgid "Enter a valid date."
+#~ msgid "Enter a valid UUID."
+#~ msgstr "मान्य आय मूल्य दर्ज करें!"
+
+#~| msgid "Enter a valid date."
+#~ msgid "Enter a valid JSON."
+#~ msgstr "मान्य आय मूल्य दर्ज करें!"
+
+#~| msgid "Enter a valid value."
+#~ msgid "“%(pk)s” is not a valid value."
+#~ msgstr "मान्य आय मूल्य दर्ज करें!"
+
 #~ msgid "Change"
 #~ msgstr "परिवर्तनों को सहेजें"
+
+#~ msgid "Update"
+#~ msgstr "अपडेट"
+
+#~ msgid "Change Password"
+#~ msgstr "पासवर्ड बदलें"

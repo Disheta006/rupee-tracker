@@ -32,7 +32,7 @@ class UserSettings(models.Model):
     monthly_income = models.FloatField(default=50000)
     spending_threshold = models.PositiveSmallIntegerField(default=70)
     billing_cycle_start = models.PositiveSmallIntegerField(default=1)
-
+    hide_amounts = models.BooleanField(default=False)
     def __str__(self):
         return f"{self.user.username} settings"
     

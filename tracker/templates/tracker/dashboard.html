@@ -77,7 +77,11 @@
               <p class="text-sm font-bold text-custom-green_tone1 uppercase tracking-tighter">{% trans "Total Income" %}</p>
             </div>
             <h2 class="text-3xl md:text-4xl font-black text-gray-400 border border-gray-200 rounded-3xl p-4">
-              ₹{{ total_income }}
+              {%  if request.user.usersettings.hide_amounts %}
+               ₹*****
+              {% else %}
+               ₹{{ total_income }}
+              {% endif %}
             </h2>
           </div>
           <div class="flex-1 w-full text-center md:text-left">
@@ -85,7 +89,7 @@
               <p class="text-sm font-bold text-custom-green_tone1 uppercase tracking-tighter">{% trans "Total Expenses" %}</p>
             </div>
             <h2 class="text-3xl md:text-4xl font-black text-gray-400 border border-gray-200 rounded-3xl p-4">
-              ₹{{ total_expense }}
+               ₹{{ total_expense }}
             </h2>
           </div>
         </div>

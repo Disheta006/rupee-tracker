@@ -189,20 +189,25 @@
             </div>
 
 
-            <div class="bg-white rounded-[2.5rem] p-8 card-shadow border border-gray-100" x-show="tab === 'security'">
+            <div id="security" class="bg-white rounded-[2.5rem] p-8 card-shadow border border-gray-100" x-show="tab === 'security'">
                 <div class="flex items-center gap-3 mb-8">
                     <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center text-custom-green_tone1">
                         <i class="fa-solid fa-user-shield"></i>
                     </div>
                     <h2 class="text-xl text-custom-green_tone1 font-medium">{% trans "Security" %}</h2>
                 </div>
-                <div class="flex gap-4">
-                    <a href="{% url 'password_reset_form' %}" class="flex items-center justify-between w-full p-4 bg-green-50 rounded-2xl hover:bg-green-100 transition group">
-                        <span class="text-sm font-bold text-green-800 group-hover:text-custom-green_tone1">{% trans "Change Password" %}</span>
-                        <i class="fa-solid fa-chevron-right text-xs text-green-700"></i>
-                    </a>
+                <div class="space-y-8">
+                    <div class="flex items-center justify-between w-full p-4 rounded-2xl bg-green-50 hover:bg-green-100 transition group"> 
+                        <div>
+                            <p class="font-bold text-sm text-green-800">{% trans 'Hide Amounts' %}</p>
+                            <p class="text-xs text-gray-500">{% trans 'Mask financial values' %}</p>
+                        </div>
+                        <button id="hideToggle" class="relative inline-flex h-7 w-14 items-center rounded-full transition-colors duration-300 focus:outline-none {% if request.user.usersettings.hide_amounts %} bg-green-600 {% else %} bg-gray-300 {% endif %}">
+                            <span id="toogleCircle" class="inline-block h-5 w-5 transform rounded-full bg-white transition-transform duration-300 {% if request.user.usersettings.hide_amounts %} translate-x-8 {% else %} translate-x-1 {% endif %}"></span>
+                        </button>
+                    </div>
                     <a href="{% url 'logout' %}" class="flex items-center justify-between w-full p-4 bg-red-50 rounded-2xl hover:bg-red-100 transition group">
-                        <span class="text-sm font-bold text-red-800 group-hover:text-custom-green_tone1">{% trans "Logout" %}</span>
+                        <span class="text-sm font-bold text-red-800">{% trans "Logout" %}</span>
                         <i class="fa-solid fa-chevron-right text-xs text-red-700"></i>
                     </a>
                 </div>
@@ -218,6 +223,23 @@
     <a href="{% url 'dashboard' %}" class="text-custom-green_tone1 text-xl"><i class="fa-solid fa-chart-column"></i></a>
     <a href="{% url 'setting' %}" class="text-custom-green_tone1 text-xl"><i class="fa-solid fa-gear"></i></a>
    </nav>
+
+   <script>
+    document.getElementById('hideToggle').onclick = function() {
+        const btn = this;
+        const circle = document.getElementById('toogleCircle');
+        fetch("{% url 'hide_amounts' %}").then(
+            res => {
+                if(res.ok) {
+                    btn.classList.toggle('bg-green-300');
+                    btn.classList.toggle('bg-green-600');
+                    circle.classList.toggle('translate-x-8');
+                    circle.classList.toggle('translate-x-1');
+                }
+            })
+            .catch(err => console.error("Error updating settings:",err));
+    }
+   </script>
 
 </body>
 </html>
