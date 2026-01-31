@@ -5,6 +5,10 @@ It provides tools for tracking expenses, visualizing data, managing time through
 Users can also add, edit, and track expenses, view summaries, and manage financial data through a clean and user-friendly dashboard.
 The application focuses on simplicity, usability, and clear financial insights.
 
+## 💻 Live Demo Link
+
+https://rupee-tracker-eyba.onrender.com
+
 ## ✨ Features
 👤 **User Authentication** - Supports secure signup, login and logout to ensure personalize access and data privacy. 
 
