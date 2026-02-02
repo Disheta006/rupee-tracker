@@ -27,9 +27,9 @@ STATICFILES_DIRS = [
 SECRET_KEY = 'django-insecure-1m!c-d!w_-ky-pj(5)32yng$-#or(8cpiio82@la#ncszs#d*d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["https://rupee-tracker-eyba.onrender.com"]
 
 
 # Application definition
@@ -169,3 +169,7 @@ MESSAGE_TAGS = {
     messages.WARNING: 'warning',
     messages.ERROR: 'error',
 }
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://rupee-tracker-eyba.onrender.com"
+]
