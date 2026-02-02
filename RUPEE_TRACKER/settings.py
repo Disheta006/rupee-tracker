@@ -29,7 +29,11 @@ SECRET_KEY = 'django-insecure-1m!c-d!w_-ky-pj(5)32yng$-#or(8cpiio82@la#ncszs#d*d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://rupee-tracker-eyba.onrender.com"]
+ALLOWED_HOSTS = ["https://rupee-tracker-eyba.onrender.com",
+                 ".onrender.com",
+                 "localhost",
+                 "127.0.0.1",
+                 ]
 
 
 # Application definition
@@ -143,15 +147,6 @@ AUTHENTICATION_BACKENDS = [
 SESSION_COOKIE_AGE = 1209600
 SESSION_EXPIRE_AT_BROWSER_CLOSE = False
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-
-EMAIL_HOST_USER = 'dhanavadaisheta@gmail.com'
-EMAIL_HOST_PASSWORD = 'vjbb ahma ywlb gmvt'
-DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
@@ -173,3 +168,7 @@ MESSAGE_TAGS = {
 CSRF_TRUSTED_ORIGINS = [
     "https://rupee-tracker-eyba.onrender.com"
 ]
+
+SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO","https")
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
